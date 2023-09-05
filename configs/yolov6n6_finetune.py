@@ -21,6 +21,7 @@ model = dict(
         in_channels=[128, 256, 512, 1024],
         num_layers=4,
         anchors=1,
+        anchors_init=[[]],
         strides=[8, 16, 32, 64],
         atss_warmup_epoch=4,
         iou_type='siou',

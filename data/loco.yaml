@@ -1,0 +1,9 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: ../LOCO_YOLOv6_BBOX/images/train # train images
+val: ../LOCO_YOLOv6_BBOX/images/val # val images
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 11  # number of classes
+names: ['none0', 'none1', 'small load carriers', 'none3', 'forklfits', 'none5', 'pallets', 'none7', 'none8', 'stillages', 'pallet trucks']  # class names
